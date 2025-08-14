@@ -16,4 +16,7 @@ WITH table_1 AS (
     UNION ALL
     SELECT * FROM table_2
 )
-SELECT * FROM last_table;
+SELECT DISTINCT ADDRESS
+		, PARK_NAME
+        , TREE_NAME
+FROM last_table
